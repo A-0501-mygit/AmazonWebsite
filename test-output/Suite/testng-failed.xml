@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Sanity(failed)">
+    <classes>
+      <class name="My_First_Project.firstAmazonCases.Test_Practice">
+        <methods>
+          <include name="scenarioWithMultipleDataSets"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Practice -->
+    </classes>
+  </test> <!-- Sanity(failed) -->
+</suite> <!-- Failed suite [Suite] -->

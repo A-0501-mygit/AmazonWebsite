@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="DropBoxandDatePicker.Test_Max_Value">
+        <methods>
+          <include name="find_max_value"/>
+        </methods>
+      </class> <!-- DropBoxandDatePicker.Test_Max_Value -->
+      <class name="My_First_Project.firstAmazonCases.TestCases_CustomerService_Handling">
+        <methods>
+          <include name="order_Handler"/>
+          <include name="select_Digital_Order"/>
+          <include name="customerService_Handler"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.TestCases_CustomerService_Handling -->
+      <class name="Table_Handling.Test_WebTable">
+        <methods>
+          <include name="table_static_full_Structure"/>
+          <include name="web_Table"/>
+        </methods>
+      </class> <!-- Table_Handling.Test_WebTable -->
+      <class name="My_First_Project.firstAmazonCases.Test_Check_Box_Handler">
+        <methods>
+          <include name="check_box_handler"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Check_Box_Handler -->
+      <class name="My_First_Project.firstAmazonCases.Test_Customer_Shoping">
+        <methods>
+          <include name="sub_Brand_Selection"/>
+          <include name="searchby_Customer"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Customer_Shoping -->
+      <class name="My_First_Project.firstAmazonCases.Test_Amazon_uk">
+        <methods>
+          <include name="select_any_order"/>
+          <include name="Select_Amazon_ukoption"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Amazon_uk -->
+      <class name="My_First_Project.firstAmazonCases.Test_ScreenShots">
+        <methods>
+          <include name="run_ScreenShots"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_ScreenShots -->
+      <class name="My_First_Project.firstAmazonCases.Test_BuyAgain_Order">
+        <methods>
+          <include name="select_any_order"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_BuyAgain_Order -->
+      <class name="DropBoxandDatePicker.Test_Date_Time_Picker">
+        <methods>
+          <include name="date_Entry_Forum"/>
+        </methods>
+      </class> <!-- DropBoxandDatePicker.Test_Date_Time_Picker -->
+      <class name="DropBoxandDatePicker.TestCase11">
+        <methods>
+          <include name="test_Login"/>
+        </methods>
+      </class> <!-- DropBoxandDatePicker.TestCase11 -->
+      <class name="My_First_Project.firstAmazonCases.Test_Best_Seller">
+        <methods>
+          <include name="select_BestSeller"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Best_Seller -->
+      <class name="DropBoxandDatePicker.Test_DropBox_Selection">
+        <methods>
+          <include name="dropbox_Selection"/>
+        </methods>
+      </class> <!-- DropBoxandDatePicker.Test_DropBox_Selection -->
+      <class name="My_First_Project.firstAmazonCases.Test_Refund_Order">
+        <methods>
+          <include name="select_Todays_Deal"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Refund_Order -->
+      <class name="My_First_Project.firstAmazonCases.Test_Amazon_ukTest">
+        <methods>
+          <include name="Select_Amazon_ukoption"/>
+          <include name="select_any_order"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Amazon_ukTest -->
+      <class name="My_First_Project.firstAmazonCases.Test_Read_Each_Letter">
+        <methods>
+          <include name="read_each_letter"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Read_Each_Letter -->
+      <class name="My_First_Project.firstAmazonCases.Test_Add_Cart">
+        <methods>
+          <include name="addtoCart"/>
+          <include name="item_Description_Selection"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Add_Cart -->
+      <class name="My_First_Project.firstAmazonCases.Test_Create_new_User">
+        <methods>
+          <include name="Create_new_User_login"/>
+        </methods>
+      </class> <!-- My_First_Project.firstAmazonCases.Test_Create_new_User -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
