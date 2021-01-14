@@ -11,6 +11,7 @@ public class DriverManager {
 	public static WebDriver driver;
 	public static WebDriver get_Driver() throws IOException
 	{
+		// driver manager
 		String currentProjectPath = System.getProperty("user.dir");
 		FileInputStream inputStream = new FileInputStream(new File(currentProjectPath+"\\src\\main\\java\\pagesForAmazon\\config.properties"));
 		Properties prop = new Properties();
