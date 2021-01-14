@@ -40,7 +40,7 @@ public class BuyAgain {
 	
 	@FindBy(xpath="//span[8]/div/label/span")
 	WebElement Camera;
-	//div[contains(@class,'a-fixed-left-grid-col filters a-col-left')]
+	
 	
 	WebDriverWait wait;
 	WebDriver driver;
@@ -54,8 +54,6 @@ public class BuyAgain {
 		
 	public void select_Feature() {
 	feature.click();
-	//low_to_High.click();
-	//typeofSorting();
 	wait = new WebDriverWait(driver, 20);
 	wait.until(ExpectedConditions.elementToBeClickable(Camera));
 	Camera.click();
@@ -77,7 +75,6 @@ public class BuyAgain {
 	}
 	
 	@FindBy(id="dropdown-2209362731647715")
-	//(xpath="//span[contains(@class,'a-dropdown-prompt')]")
 	WebElement type_Sorting;
 	
  public void typeofSorting() {
